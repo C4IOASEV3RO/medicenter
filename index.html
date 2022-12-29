@@ -1,0 +1,438 @@
+<html>
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,user-scalable=0"/>
+    <link rel="stylesheet" href="assets/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
+
+     <script type="text/javascript">
+            window.onload = function (){
+                document.querySelector(".menumobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };    
+        </script>
+
+    <title>MediCenter</title>
+
+</head>
+<body>
+    <!--Cabeçario-->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/images/logo.png"/></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">COMEÇO</a></li>
+                        <li><a href="#anc">HORÁRIOS</a></li>
+                        <li><a href="#geral">BLOG</a></li>
+                        <li><a href="#departamentos">DEPARTAMENTOS</a></li>
+                        <li><a href="#consult">CONSULTA</a></li>
+                        <li><a href="#contact">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Banner-->
+    <section id="banner">
+        <div class="container column">
+            <div id="banner_headline">
+                <h1>Experiência de alto nível</h1>
+                <h2 id="anc">MediCenter é uma empresa com foco em salvar vidas, melhorar sua auto-estima e promover sua saúde</h2>
+            </div>
+            <div id="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Caso de emergência</div>
+                    <div class="banner_desc">Se você precisar de um doutor urgente e estivermos fora do nosso horário de atuação,
+                        então ligue para o número da nossa consulta de emergência.</div>
+                        <a href="">Saiba Mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Horário dos médicos</div>
+                    <div class="banner_desc">Se você precisar de um doutor urgente e estivermos fora do nosso horário de atuação,
+                        então ligue para o número da nossa consulta de emergência.
+                    </div>
+                    <a href="">Saiba Mais</a>
+                </div>
+                <div id="banner3">
+                    <div class="banner_title">Horários de Atuação</div>
+                    <div id="opening_hours">
+                        <div class="monday-friday">
+                            <div>Segunda - Sexta</div>
+                            <div>8:00 - 17:00</div>
+                        </div>
+                        <div class="desc_bar"></div>
+                        <div class="saturday">
+                            <div>Sábado</div>
+                            <div>9:30 - 17:30</div>
+                        </div>
+                        <div class="desc_bar"></div>
+                        <div class="Sunday">
+                            <div>Domingo</div>
+                            <div>9:00 - 15:00</div>
+                        </div>
+                        <div class="desc_bar"></div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text_recents">Notícias recentes</div>
+                        <div class="widget_title_bar_recents"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 Dez 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/doctor.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Notícia aleatória
+                                </div>
+                                <div class="news_resume">
+                                    Quanto mais atraente for a fonte das palavras, mais o leitor se interessará
+                                    em continuar lendo... não só isso, mas também o layout da página ao redor da fonte.
+                                    O ponto de usar a fonte lorem ipsum é que ela tem uma 'mais-ou-menos' uma
+                                    distribuição de letras, o oposto de usar fontes normais. Fazendo assim,
+                                    com que o conteúdo seja mais prazeroso de ler... ou pelo menos, menos
+                                    enjoativo
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 Dez 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/doctor.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Notícia aleatória
+                                </div>
+                                <div class="news_resume">
+                                    Quanto mais atraente for a fonte das palavras, mais o leitor se interessará
+                                    em continuar lendo... não só isso, mas também o layout da página ao redor da fonte.
+                                    O ponto de usar a fonte lorem ipsum é que ela tem uma 'mais-ou-menos' uma
+                                    distribuição de letras, o oposto de usar fontes normais. Fazendo assim,
+                                    com que o conteúdo seja mais prazeroso de ler... ou pelo menos, menos
+                                    enjoativo
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 Dez 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/doctor.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Notícia aleatória
+                                </div>
+                                <div class="news_resume">
+                                    Quanto mais atraente for a fonte das palavras, mais o leitor se interessará
+                                    em continuar lendo... não só isso, mas também o layout da página ao redor da fonte.
+                                    O ponto de usar a fonte lorem ipsum é que ela tem uma 'mais-ou-menos' uma
+                                    distribuição de letras, o oposto de usar fontes normais. Fazendo assim,
+                                    com que o conteúdo seja mais prazeroso de ler... ou pelo menos, menos
+                                    enjoativo
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 Dez 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/doctor.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Notícia aleatória
+                                </div>
+                                <div class="news_resume">
+                                    Quanto mais atraente for a fonte das palavras, mais o leitor se interessará
+                                    em continuar lendo... não só isso, mas também o layout da página ao redor da fonte.
+                                    O ponto de usar a fonte lorem ipsum é que ela tem uma 'mais-ou-menos' uma
+                                    distribuição de letras, o oposto de usar fontes normais. Fazendo assim,
+                                    com que o conteúdo seja mais prazeroso de ler... ou pelo menos, menos
+                                    enjoativo
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div id="widget2" class="widget">
+                    <div class="widget_title">
+                        <div id="departamentos" class="widget_title_text">Departamentos</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="container2">
+                            <div class="elemento"></div>
+                            <div class="elemento"></div>
+                            <div id="consult" class="elemento"></div>
+                            <div class="elemento"></div>
+                            <div class="elemento"></div>
+                            <div class="elemento"></div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Marque Uma Consulta</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body2">
+                        <div class="desc">
+                            Há diversas formas de marcar uma consulta conosco... dentre elas:
+                        </div>
+                        <div class="marcar_consulta">
+                            <div class="desc_bar"></div>
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i> 
+                                <div>Por telefone: <strong>+55 75 99281-1415</strong></div>
+                            </div>
+                            <div class="desc_bar"></div>
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>Por e-mail: <strong>medicenter@gmail.com</strong></div>
+                            </div>
+                            <div class="desc_bar"></div>
+                            <div class="icon">
+                                <i class="fa-solid fa-hashtag"></i>
+                                <div>Ou pelas redes sociais nos nossos contatos</div>
+                            </div>
+                            <div class="desc_bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container3 flexColumn">
+            <div class="footer_menu">
+                <div class="box1">
+                    <a href="">
+                    <div class="banner_title">Plano De Saúde</div>
+                    <div class="banner_desc">Aqui na medicenter nós temos -></div>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a href="">
+                    <div class="banner_title">Registros Médicos</div>
+                    <div class="banner_desc">Aqui na medicenter nós temos -></div>
+                    </a>
+                </div>
+                <div class="box3">
+                    <a href="">
+                    <div class="banner_title">Pagar Conta online</div>
+                    <div class="banner_desc">Aqui na medicenter nós temos -></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaItem">
+                    <div class="widgeti">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Clinica Medicenter</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="text">
+                                Aqui estão nosso endereço, números e redes sociais!
+                            </div>
+                            <div class="contact">
+                                Clinica Medicenter
+                                <div class="address1">
+                                    <div>
+                                        Rua Marechal Floriano
+                                    </div>
+                                    <div>
+                                        +55 35 98816-7521
+                                    </div>
+                                </div>
+
+                                <div class="address2">
+                                    <div>
+                                        Paulo Afonso
+                                    </div>
+                                    <div>
+                                        +55 75 99236-9855
+                                    </div>
+                                </div>
+
+                                <div class="address3">
+                                    <div>
+                                        VIC 3033, Brasil
+                                    </div>
+                                    <div>
+                                        medicenter@gmail.com
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="icons">
+                                <a href="">
+                                <div>
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                                </a>
+
+                                <a href="">
+                                <div>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                </a>
+
+                                <a href="">
+                                <div>
+                                    <i class="fa-brands fa-whatsapp"></i> 
+                                </div>
+                                </a>
+
+                                <a href="">
+                                <div>
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </div>
+                                </a>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaItem">
+                    <div class="widgeti">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Posts Recentes</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <a href="">
+                                <div class="text">
+                                    <i class="fa-solid fa-arrow-right"></i> A importância da água no dia a dia.
+                                </div>
+                            </a>
+                            <div class="blue_text">
+                                10 dias atrás
+                            </div>
+                            
+                            <a href="">
+                                <div class="text">
+                                    <i class="fa-solid fa-arrow-right"></i> O que fazer depois de uma cirurgia?
+                                </div>
+                            </a>
+                            <div class="blue_text">
+                                17 dias atrás
+                            </div>
+                            <a href="">
+                                <div class="text">
+                                    <i class="fa-solid fa-arrow-right"></i> Como se preparar para uma consulta médica?
+                                </div>
+                            </a>
+                            <div class="blue_text">
+                                20 dias atrás
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaItem">
+                    <div class="widgeti">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Videos Recentes</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <a href="">
+                                <div class="text">
+                                    <i class="fa-solid fa-arrow-right"></i> Como combater a acne com apenas recursos de casa.
+                                </div>
+                            </a>
+                            <div class="blue_text">
+                                4 Dias atrás
+                            </div>
+
+                            <a href="">
+                            <div class="text">
+                                <i class="fa-solid fa-arrow-right"></i> Como emagrecer rápido sem prejudicar a saúde.
+                            </div>
+                            </a>
+                            <div class="blue_text">
+                                1 mês atrás
+                            </div>
+
+                            <a href="">
+                                <div class="text">
+                                    <i class="fa-solid fa-arrow-right"></i> Meu filho nasceu, o que devo fazer?
+                                </div>
+                            </a>
+                            <div class="blue_text">
+                                6 meses atrás
+                            </div>
+
+                            <a href="">
+                            <div class="text">
+                                <i class="fa-solid fa-arrow-right"></i> Cuidados com o ambiente para não prejudicar a saúde.
+                            </div>
+                            </a>
+                            <div class="blue_text">
+                                7 meses atrás
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                Copyright - Empresa Medicenter, feito por Caio
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
