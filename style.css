@@ -50,7 +50,7 @@ nav .active a, nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgvwunky1JHg3SgxrtfbgmlyACIyII0E5DwqfWsfcoamWhNJCo); /* Esse '../' é pra voltar pra pasta assets e entrar na pasta images, além disso, usa-se quando você quer colocar textos por cima da imagem.*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgvwunky1JHg3SgxrtfbgmlyACIyII0E5DwqfWsfcoamWhNJCo.jpg); /* Esse '../' é pra voltar pra pasta assets e entrar na pasta images, além disso, usa-se quando você quer colocar textos por cima da imagem.*/
     background-position: center;
     background-size: cover; /* diz para preencher todo o espaço disponivel da tela da pessoa. */
     height: 1000px;
